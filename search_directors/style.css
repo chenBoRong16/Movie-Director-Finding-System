@@ -1,0 +1,24 @@
+table {
+    border: 1px solid black;
+}
+
+table tr:hover {
+    background-color: #bebbbb;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+}
+
+form#download-button {
+    margin: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #9a9898;
+}
+
+
