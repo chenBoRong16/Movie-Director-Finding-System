@@ -23,7 +23,7 @@
 
                 // 嘗試連接資料庫
                 try {
-                    $db = new PDO('mysql:dbname=imdb_small;host=localhost', $input_account, $input_password);
+                    $db = new PDO('mysql:dbname=movie_directors;host=localhost;charset=utf8mb4', $input_account, $input_password);
                 } catch (PDOException $e) {
                     throw new Exception('Database connection failed: ' . $e->getMessage());
                 }
